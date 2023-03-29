@@ -1,14 +1,14 @@
 # tidb-playground
 Dockerfile for tidb playground using tiup
 
-The image is available at https://hub.docker.com/repository/docker/yeya24/tidb-playground.
+The image is available at https://hub.docker.com/r/tigrulya/tidb-playground
 
 ## Usage
 
 ### Start container
 
 ``` bash
-docker run -d -p 4000:4000 -p 2379:2379 hooopo/tidb-playground:v5.2.0
+docker run -d -p 4000:4000 -p 2379:2379 tigrulya/tidb-playground:v6.0.0
 ```
 
 After few seconds we can check the logs of the container to make sure our TiDB cluster is up and running.
